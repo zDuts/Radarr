@@ -2,12 +2,12 @@
 
 ### Installation
 
-This fork is designed to be a drop-in replacement for existing Radarr docker installations. Simply replace your radarr docker image with `ghcr.io/actuallyevan/radarr:latest`
+This fork is designed to be a drop-in replacement for existing Radarr docker installations. Simply replace your radarr docker image with `ghcr.io/zduts/radarr:latest`
 
 Sample docker compose:
 ```docker
 radarr:
-    image: ghcr.io/actuallyevan/radarr:latest
+    image: ghcr.io/zduts/radarr:latest
     container_name: radarr
     environment:
       - PUID=1000
